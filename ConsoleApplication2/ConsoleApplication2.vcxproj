@@ -111,6 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -129,6 +130,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -149,16 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Downloads\favicon.ico" />
-    <Image Include="..\..\..\downloads\icon2.ico" />
-    <Image Include="..\..\..\downloads\icon3.ico" />
-    <Image Include="..\..\..\downloads\icon4.ico" />
-    <Image Include="..\..\..\downloads\icon5.ico" />
-    <Image Include="..\..\..\Downloads\R-C.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\downloads\bin12.bin" />
-    <None Include="..\..\..\downloads\bin13.bin" />
-    <None Include="..\..\..\downloads\bin14.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

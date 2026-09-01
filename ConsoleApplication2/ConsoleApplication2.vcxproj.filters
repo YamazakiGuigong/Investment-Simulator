@@ -33,31 +33,5 @@
     <Image Include="..\..\..\Downloads\favicon.ico">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\Downloads\R-C.jpg">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="..\..\..\downloads\icon2.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="..\..\..\downloads\icon3.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="..\..\..\downloads\icon4.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="..\..\..\downloads\icon5.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\downloads\bin12.bin">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\downloads\bin13.bin">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\downloads\bin14.bin">
-      <Filter>资源文件</Filter>
-    </None>
   </ItemGroup>
 </Project>
